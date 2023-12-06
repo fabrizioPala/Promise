@@ -12,11 +12,8 @@ let obj = {
   name: "Jhon",
   age: 30
 };
-function Promise2(){
-  return new Promise((resolve, reject) => {
-    
-  })
-}
+
+
 function fetchDataFromAPI(data) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
